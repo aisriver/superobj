@@ -7,7 +7,7 @@
 - cnpm install superobject --save
 
 ## step 2
-import 'superobject';
+import superobject from 'superobject';
 
 - use
 
