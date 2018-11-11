@@ -1,5 +1,5 @@
 {
-  "name": "superobj",
+  "name": "superobject",
   "version": "1.0.0",
   "description": "数组转化的超级对象",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aisriver/superobj.git"
+    "url": "git+https://github.com/aisriver/superobject.git"
   },
   "keywords": [
     "array",
     "object",
-    "superobj"
+    "superobject"
   ],
   "author": "Jared",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aisriver/superobj/issues"
+    "url": "https://github.com/aisriver/superobject/issues"
   },
-  "homepage": "https://github.com/aisriver/superobj#readme"
+  "homepage": "https://github.com/aisriver/superobject#readme"
 }

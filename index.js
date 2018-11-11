@@ -1,7 +1,7 @@
 ; (function () {
     "use strict"
     var _global;
-    Array.prototype.superobj = function () {
+    Array.prototype.superobject = function () {
         var result = {};
         this.map(function (a, i) {
             function findResult(kv, aValue) {
@@ -39,7 +39,7 @@
                 findResult(a, a);
             }
             if ((a instanceof Array)) {
-                findResult('array(index=' + i + ')', a.superobj());
+                findResult('array(index=' + i + ')', a.superobject());
             }
         });
         return result;
