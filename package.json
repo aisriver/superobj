@@ -1,0 +1,24 @@
+{
+  "name": "superobj",
+  "version": "1.0.0",
+  "description": "数组转化的超级对象",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisriver/superobj.git"
+  },
+  "keywords": [
+    "array",
+    "object",
+    "superobj"
+  ],
+  "author": "Jared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisriver/superobj/issues"
+  },
+  "homepage": "https://github.com/aisriver/superobj#readme"
+}
