@@ -44,12 +44,12 @@
         });
         return result;
     }
-    _global = (function () { return this || (0, eval)('this'); }());
-    if (typeof module !== "undefined" && module.exports) {
-        module.exports = Array;
-    } else if (typeof define === "function" && define.amd) {
-        define(function () { return Array; });
-    } else {
-        !('Array' in _global) && (_global.Array = Array);
-    }
+    // _global = (function () { return this || (0, eval)('this'); }());
+    // if (typeof module !== "undefined" && module.exports) {
+    //     module.exports = Array;
+    // } else if (typeof define === "function" && define.amd) {
+    //     define(function () { return Array; });
+    // } else {
+    //     !('Array' in _global) && (_global.Array = Array);
+    // }
 }());

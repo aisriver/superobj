@@ -7,7 +7,8 @@
 - cnpm install superobject --save
 
 ## step 2
-import superobject from 'superobject';
+最好在全局引用
+import 'superobject';
 
 - use
 
