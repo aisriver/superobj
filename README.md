@@ -6,6 +6,8 @@
 - npm install -g cnpm --registry=https://registry.npm.taobao.org
 - cnpm install superobject --save
 
+- 或者使用 yarn add superobject
+
 ## step 2
 最好在全局引用
 import 'superobject';
@@ -68,6 +70,10 @@ console.log(mysuperobject[true]);
 <h4>三、同状态下的多次查询（查询到多条记录情况下）</h4>
 var searchResult1 = mysuperobject['a=1'].arr;
 var searchResult2 = searchResult1.superobject()['b=3'];
+
+解决重复劳动力是一件很有意义的事情，
+有什么好的想法，欢迎一起成长交流
+WeChat：mrliaojun
 </pre>
 
 ### github
